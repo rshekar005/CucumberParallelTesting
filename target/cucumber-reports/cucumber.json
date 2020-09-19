@@ -1,0 +1,638 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-19T08:39:39.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Direct Search using firefox",
+        "description": "",
+        "id": "direct-search;direct-search-using-firefox",
+        "after": [
+          {
+            "result": {
+              "duration": 4943000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6183000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1884000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search terms \u0027way2automation\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027way2automation\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1046000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T08:39:54.003Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Direct Search Using google",
+        "description": "",
+        "id": "direct-search;direct-search-using-google",
+        "after": [
+          {
+            "result": {
+              "duration": 4662000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5283000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1160000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters search terms \u0027facebook\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027facebook\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 866000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Direct Search",
+    "description": "",
+    "id": "direct-search",
+    "keyword": "Feature",
+    "uri": "file:com/test/resources/Features/Search-Many.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-19T08:39:39.765Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search Using scenario outline",
+        "description": "",
+        "id": "searching-on-google-using-scenario-outline;search-using-scenario-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4675000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6183000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1897000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search terms \u0027whatsapp\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027whatsapp\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1890000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-19T08:39:54.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search Using scenario outline",
+        "description": "",
+        "id": "searching-on-google-using-scenario-outline;search-using-scenario-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 531000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5555000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1248000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search terms \u0027yahoo\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027yahoo\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2106000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Searching on Google using scenario outline",
+    "description": "",
+    "id": "searching-on-google-using-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:com/test/resources/Features/Search-outline.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-19T08:40:04.093Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Feature",
+        "description": "",
+        "id": "feature-2;feature",
+        "after": [
+          {
+            "result": {
+              "duration": 4403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6749000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1649000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search terms \u0027Teqsar\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Teqsar\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2384000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature 2",
+    "description": "",
+    "id": "feature-2",
+    "keyword": "Feature",
+    "uri": "file:com/test/resources/Features/feature2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-19T08:40:06.043Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Direct Search using chrome",
+        "description": "",
+        "id": "feature-3;direct-search-using-chrome",
+        "after": [
+          {
+            "result": {
+              "duration": 4706000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5417000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027chrome\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.launch_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1316000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \u0027http://www.google.com\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027http://www.google.com\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search terms \u0027mfino\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027mfino\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.stepdefinitions.SearchGoogle.user_enters_search_terms(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 726000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on search button",
+            "match": {
+              "location": "com.stepdefinitions.SearchGoogle.clicks_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Feature 3",
+    "description": "",
+    "id": "feature-3",
+    "keyword": "Feature",
+    "uri": "file:com/test/resources/Features/feature3.feature",
+    "tags": []
+  }
+]

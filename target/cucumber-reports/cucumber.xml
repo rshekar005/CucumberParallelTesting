@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="39.704">
+<testcase classname="Direct Search" name="Direct Search using firefox" time="14.231">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'way2automation'..............................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Direct Search" name="Direct Search Using google" time="12.025">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'facebook'....................................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching on Google using scenario outline" name="Search Using scenario outline" time="14.794">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'whatsapp'....................................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Searching on Google using scenario outline" name="Search Using scenario outline 2" time="9.499">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'yahoo'.......................................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature 2" name="Feature" time="15.242">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'Teqsar'......................................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature 3" name="Direct Search using chrome" time="12.229">
+<system-out><![CDATA[Given launch browser 'chrome'...............................................passed
+When user navigates to 'http://www.google.com'..............................passed
+Then user enters search terms 'mfino'.......................................passed
+And clicks on search button.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
